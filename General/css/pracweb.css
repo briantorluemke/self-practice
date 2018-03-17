@@ -1,0 +1,75 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    height: 100px;
+}
+
+.navbar {
+    border: 1px solid white;
+    height: 100px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+body {
+    background-color: black;
+}
+
+div>.row {
+    width: 100%;
+}
+
+.font1 {
+    font-family: 'Rammetto One', cursive;
+}
+
+.font2 {
+    font-family: 'Mina', sans-serif;
+}
+
+.sidebar {
+    height: 700px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+main {
+    margin: 0 2em;
+}
+.full {
+    width; 100%;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.nav-link {
+    color:white;
+    border: 1px solid white;
+    border-radius: 15px 15px 50px 50px;
+    text-align: center;
+    display: inline;
+    margin-top: 2em;
+}
+
+@media screen and  (max-width: 767px) {
+   .nav-link {
+       display: block;
+   }
+}
+
+.navbut {
+    margin-top: 2em;
+}
+
+h4 {
+    margin-top: 1em;
+    text-align: center;
+    color: lightslategray;
+}
