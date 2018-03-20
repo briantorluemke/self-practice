@@ -73,3 +73,31 @@ h4 {
     text-align: center;
     color: lightslategray;
 }
+
+.maintext {
+    color: white;
+    text-align: left;
+    margin-top: 1em;
+}
+
+.frontpic {
+    width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-link {
+        border: 0;
+    }
+}
+
+.navbg {
+    background-image: url("http://www.sigtutorials.com/wp-content/gallery/League-of-Legends/Missfortune_roadwarrior-%5BSigTutorials.com%5D.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: 50% 50%;*/
+}
+
+.box {
+    height: 95%;
+    vertical-align: text-bottom;
+}
